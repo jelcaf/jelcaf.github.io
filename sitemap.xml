@@ -1,11 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://jelcaf.github.io/blog/2013/04/29/loren-ipsum/</loc>
+        <lastmod>2013-04-29T20:57:43+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jelcaf.github.io/archives/</loc>
+        <lastmod>2013-04-29T20:57:43+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://jelcaf.github.io/blog/archives/</loc>
-        <lastmod>2013-04-29T15:33:32+01:00</lastmod>
+        <lastmod>2013-04-29T20:57:43+01:00</lastmod>
     </url>
     <url>
         <loc>http://jelcaf.github.io/</loc>
-        <lastmod>2013-04-29T15:33:32+01:00</lastmod>
+        <lastmod>2013-04-29T20:57:43+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jelcaf.github.io/search.html</loc>
+        <lastmod>2013-04-29T19:19:30+01:00</lastmod>
     </url>
 </urlset>
