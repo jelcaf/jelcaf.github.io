@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Jelcaf's Blog]]></title>
   <link href="http://jelcaf.github.io/atom.xml" rel="self"/>
   <link href="http://jelcaf.github.io/"/>
-  <updated>2013-04-29T15:33:41+01:00</updated>
+  <updated>2013-04-29T15:47:29+01:00</updated>
   <id>http://jelcaf.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
-    
+    <name><![CDATA[Jorge Carballo]]></name>
+    <email><![CDATA[jelcaf@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
