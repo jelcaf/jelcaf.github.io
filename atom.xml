@@ -4,7 +4,7 @@
   <title><![CDATA[Jelcaf's Blog]]></title>
   <link href="http://jelcaf.github.io/atom.xml" rel="self"/>
   <link href="http://jelcaf.github.io/"/>
-  <updated>2013-09-19T11:12:29+01:00</updated>
+  <updated>2013-09-19T11:23:22+01:00</updated>
   <id>http://jelcaf.github.io/</id>
   <author>
     <name><![CDATA[Jorge Carballo]]></name>
@@ -56,7 +56,7 @@
 
 <p><img src="http://jelcaf.github.io/images/basicStructure/newProyect5.png"></p>
 
-<p>Haremos lo mismo con la librería de <em>Facebook</em> (nombre de paquete que le ponemos es <em>com.facebook</em>) y de <em>SlidingMenu</em> (packageName: <em>com.jeremyfeinstein.slidingmenu.lib</em>), pero la dependencia que le incluimos ahora a cada uno de esos módulos es una dependencia de modulo (no de un .jar como hicimos antes), y hará referencia a nuestro módulo <em>actionbarsherlock</em> quedando la configuración de la siguiente manera:</p>
+<p>Haremos lo mismo con la librería de <em>Facebook</em> (nombre de paquete que le ponemos es <em>com.facebook</em>) y de <em>SlidingMenu</em> (packageName: <em>com.slidingmenu.lib</em>), pero la dependencia que le incluimos ahora a cada uno de esos módulos es una dependencia de modulo (no de un .jar como hicimos antes), y hará referencia a nuestro módulo <em>actionbarsherlock</em> quedando la configuración de la siguiente manera:</p>
 
 <p><img src="http://jelcaf.github.io/images/basicStructure/newProyect6.png"></p>
 
