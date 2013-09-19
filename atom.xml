@@ -4,7 +4,7 @@
   <title><![CDATA[Jelcaf's Blog]]></title>
   <link href="http://jelcaf.github.io/atom.xml" rel="self"/>
   <link href="http://jelcaf.github.io/"/>
-  <updated>2013-09-19T10:11:59+01:00</updated>
+  <updated>2013-09-19T11:12:29+01:00</updated>
   <id>http://jelcaf.github.io/</id>
   <author>
     <name><![CDATA[Jorge Carballo]]></name>
@@ -42,7 +42,31 @@
 
 <p>Ahora lo siguiente que deveremos hacer es descarlas las diferents librerías. Empezaremos con <em>ActionBarSherlock</em>, la cual descargaremos el zip desde la siguiente <a href="http://actionbarsherlock.com/">dirección</a>, en mi caso fue la versión <em>4.4.0</em>. Dentro de ese <em>zip</em> copiaremos la carpeta <em>actionbarsherlock</em> al directorio que habíamos creado para añadir las librerías externas: <em>externalLibraries</em>.</p>
 
-<p>A continuación haremos lo mismo con las otras dos librerías.</p>
+<p>A continuación haremos lo mismo con las otras dos librerías. Descargamos el SDK de Facebook desde la siguiente <a href="https://developers.facebook.com/resources/facebook-android-sdk-current.zip">dirección</a> (En mi caso la versión es la <em>3.5</em>) y copiamos la carpeta <em>facebook</em> que se encuentra dentro de ese <em>zip</em> a la carpeta que tenemos asignada para las librerías externas. Finalmente haremos lo mismo con la librería SlidingMenu, descargamos desde <a href="https://github.com/jfeinstein10/SlidingMenu">aquí</a> y copiamos la carpeta <em>library</em> (Para que quede todo más ordenado, en la carpeta <em>externalLibraries</em> crearemos una carpeta que se llame <em>slidingmenu</em> y dentro de esta copiamos la carpeta <em>library</em> descargada.</p>
+
+<p>Una vez realizados todos estos pasos, vamos a configurar nuestro proyecto en IntelliJ para que funciones con estas tres librerías. En IntelliJ abrimos la estructura del proyecto en <em>File > Project Structure</em>, y seleccionamos <em>Modules</em> y pulsamos sobre <em>+</em> para añadir <em>New Module</em> y seleccionamos <em>Library Module</em>, estableciendo el directorio <em>root</em> donde hayamos copiado la librería.</p>
+
+<p><img src="http://jelcaf.github.io/images/basicStructure/newProyect3.png"></p>
+
+<p>Ahora pulsaremos sobre el <em>+</em> que se encuentra en la parte inferior y seleccionamos un <em>.jar</em>, en concreto el de soporte de android v4, que se encuentra dentro de la librería de <em>ActionbarSherlock</em>.</p>
+
+<p><img src="http://jelcaf.github.io/images/basicStructure/newProyect4.png"></p>
+
+<p>Con lo que la configuración nos quedaría de la siguiente manera:</p>
+
+<p><img src="http://jelcaf.github.io/images/basicStructure/newProyect5.png"></p>
+
+<p>Haremos lo mismo con la librería de <em>Facebook</em> (nombre de paquete que le ponemos es <em>com.facebook</em>) y de <em>SlidingMenu</em> (packageName: <em>com.jeremyfeinstein.slidingmenu.lib</em>), pero la dependencia que le incluimos ahora a cada uno de esos módulos es una dependencia de modulo (no de un .jar como hicimos antes), y hará referencia a nuestro módulo <em>actionbarsherlock</em> quedando la configuración de la siguiente manera:</p>
+
+<p><img src="http://jelcaf.github.io/images/basicStructure/newProyect6.png"></p>
+
+<p>A continuación tendremos que añadirle a nuestra aplicación <em>BasicStructureAndroid</em> las dependencias de los módulos <em>facebook</em> y <em>library</em> (SlidingMenu), con lo que la configuración quedará de la siguiente manera.</p>
+
+<p><img src="http://jelcaf.github.io/images/basicStructure/newProyect7.png"></p>
+
+<p>Ahora sólo nos falta probar, lanzamos la aplicación y <em>voilá</em>.</p>
+
+<p>En los siguientes post explicaré como usar cada una de las librerías añadidas.</p>
 ]]></content>
   </entry>
   
